@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url(../font/RobotoCondensed-Bold.ttf);
+}/*
+html, body{
+  width: 297mm; 
+  height: 210mm;
+}*/
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.row>*{
+  padding: 0px;
+  margin: 0px;
+}
+.fs-0{
+  font-size: 100px;
+}
+.center-justify{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+.bg-warning{
+  background-color: #fbe599 !important;
+}
+
+.graphs{
+  width: 100%;
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+  }
+}
+
